@@ -2135,7 +2135,7 @@ public class ResidentServiceImpl implements ResidentService {
 
 	@Override
 	/**
-	 * create the template for service history PDF and converted template into PDF
+	 * create the template for service history and converted template into PDF
 	 */
 	public byte[] downLoadServiceHistory(ResponseWrapper<PageDto<ServiceHistoryResponseDto>> responseWrapper,
 										 String languageCode, LocalDateTime eventReqDateTime, LocalDate fromDateTime, LocalDate toDateTime,
